@@ -22,24 +22,39 @@
     padding: 20px;
 }
 
-#animationImage {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+.list-group-item .btn {
+    transition: transform 0.3s ease, background-image 0.3s ease;
 }
 
-#animationAuthor {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
+#scrollspyHeading1 .btn:hover {
+    background-image: url('../Assets/Gifs/Escaflowne.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
 }
-
-#animationDescription {
-    font-size: 1em;
-    line-height: 1.5;
-    color: #555;
+#scrollspyHeading2 .btn:hover {
+    background-image: url('../Assets/Gifs/Blue_seed.webp'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
 }
-
-#Scaflowne:hover + .hover-gif {
-    display: block;
+#scrollspyHeading3 .btn:hover {
+    background-image: url('../Assets/Gifs/Patlabor.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
+}
+#scrollspyHeading4 .btn:hover {
+    background-image: url('../Assets/Gifs/BBGCrisis2040.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
 }
