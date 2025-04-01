@@ -39,3 +39,7 @@
     line-height: 1.5;
     color: #555;
 }
+
+#Scaflowne:hover + .hover-gif {
+    display: block;
+}
