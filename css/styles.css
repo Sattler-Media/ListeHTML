@@ -58,3 +58,35 @@
     color: transparent;
     transform: scale(1.2, 1.5); 
 }
+#scrollspyHeading5 .btn:hover {
+    background-image: url('../Assets/Gifs/RoLW.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
+}
+#scrollspyHeading6 .btn:hover {
+    background-image: url('../Assets/Gifs/salyers.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
+}
+#scrollspyHeading7 .btn:hover {
+    background-image: url('../Assets/Gifs/X.webp'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
+}
+#scrollspyHeading8 .btn:hover {
+    background-image: url('../Assets/Gifs/MKR.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: transparent;
+    transform: scale(1.2, 1.5); 
+}
