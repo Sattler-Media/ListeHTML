@@ -1,18 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@0..45,0..100&family=UnifrakturMaguntia&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 2%;
+    text-align: center;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0,
+      "SHLN" 50;
+  }
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode ul {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    border: 1px solid #333; 
+}
+
+.dark-mode .list-group-item {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    border-color: #333;
+}
 .container {
     margin-top: 50px;
 }
-
 .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .list-group-item img {
     max-width: 100px;
     margin-right: 20px;
 }
-
 .list-group-item .details {
     flex-grow: 1;
 }
