@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 .header {
-    background-color: #f1f1f1;
+    background-color: #dbeafe;
     padding: 2%;
     text-align: center;
     font-family: "Honk", system-ui;
@@ -19,21 +19,12 @@ body {
       "MORF" 0,
       "SHLN" 50;
   }
-.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+#searchInput{
+    margin-right: 15px;
 }
-.dark-mode ul {
-    background-color: #1e1e1e; 
-    color: #ffffff; 
-    border: 1px solid #333; 
-}
-
-.dark-mode .list-group-item {
-    background-color: #1e1e1e; 
-    color: #ffffff; 
-    border-color: #333;
-}
+#toggleDarkMode{
+    margin-left: 15px;    
+  }
 .container {
     margin-top: 50px;
 }
@@ -50,6 +41,28 @@ body {
     flex-grow: 1;
 }
 
+/* Dark Mode CSS */
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode .header {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+}
+.dark-mode ul {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    border: 1px solid #333; 
+}
+
+.dark-mode .list-group-item {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    border-color: #333;
+}
+
 /* Custom styles for the offcanvas detailed description */
 .offcanvas-body {
     padding: 20px;
@@ -59,6 +72,7 @@ body {
     transition: transform 0.3s ease, background-image 0.3s ease;
 }
 
+/* Button Animation */
 #scrollspyHeading1 .btn:hover {
     background-image: url('../Assets/Gifs/Escaflowne.gif'); 
     background-repeat: no-repeat;
