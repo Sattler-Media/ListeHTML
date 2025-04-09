@@ -62,6 +62,10 @@ body {
     color: #ffffff; 
     border-color: #333;
 }
+.offcanvas.dark-mode {
+    background-color: #333333; /* Gris oscuro */
+    color: #ffffff; /* Blanco */
+}
 
 /* Custom styles for the offcanvas detailed description */
 .offcanvas-body {

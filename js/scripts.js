@@ -10,6 +10,18 @@ document.getElementById('searchInput').addEventListener('input', function() {
 document.getElementById('flexSwitchCheckDefault').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 });
+document.getElementById('flexSwitchCheckDefault').addEventListener('change', function () {
+    const isDarkMode = this.checked;
+    const offcanvasElements = document.querySelectorAll('.offcanvas');
+
+    offcanvasElements.forEach(element => {
+        if (isDarkMode) {
+            element.classList.add('dark-mode');
+        } else {
+            element.classList.remove('dark-mode');
+        }
+    });
+});
 /* Videos Pause */
 document.querySelectorAll('iframe').forEach(iframe => {
     iframe.onload = () => {
